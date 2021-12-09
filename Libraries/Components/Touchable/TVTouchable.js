@@ -41,9 +41,9 @@ export default class TVTouchable {
         } else if (tvData.eventType === 'blur') {
           config.onBlur(tvData);
         } else if (tvData.eventType === 'select') {
-          if (!config.getDisabled()) {
-            config.onPress(tvData);
-          }
+          // if (!config.getDisabled()) {
+          //   config.onPress(tvData);
+          // }
         }
       }
     });
